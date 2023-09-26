@@ -5,6 +5,9 @@ import sampleA from "./assets/sampleA.jpg"
 import profile from "./assets/profile.png"
 import ericMedina from "./assets/Eric_Medina.JPG"
 import jeremySelwin from "./assets/Jeremy_Selwin.JPG"
+import matthewKompel from "./assets/Matthew_Kompel.jpg"
+import michaelKwon from "./assets/Michael_Kwon.png"
+import mingjunGao from "./assets/Mingjun_Gao.jpg"
 import water from "./assets/water.png"
 import mouse from "./assets/mouse.png"
 import logo from "./assets/logo.png"
@@ -21,12 +24,12 @@ function App() {
   ];
 
   const contactCards = [
-    { name: "Matthew Kompel", email: "19mpk@queensu.ca", photo: profile },
+    { name: "Matthew Kompel", email: "19mpk@queensu.ca", photo: matthewKompel },
     { name: "Jeremy Selwin", email: "19jcs11@queensu.ca", photo: jeremySelwin },
-    { name: "Eric Medina", email: "sample@queensu.ca", photo: ericMedina },
-    { name: "Mingjun Gao", email: "sample@queensu.ca", photo: profile },
-    { name: "Michael Kwon", email: "sample@queensu.ca", photo: profile },
-    { name: "Matthew Sun", email: "sample@queensu.ca", photo: profile },
+    { name: "Eric Medina", email: "20eam22@queensu.ca", photo: ericMedina },
+    { name: "Mingjun Gao", email: "21mg37@queensu.ca", photo: mingjunGao },
+    { name: "Michael Kwon", email: "18mk105@queensu.ca", photo: michaelKwon },
+    { name: "Matthew Sun", email: "20ms154@queensu.ca", photo: profile },
   ]
 
   const homeRef = useRef(null)
