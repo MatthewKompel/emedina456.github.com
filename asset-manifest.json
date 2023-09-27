@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/emedina456.github.com/static/css/main.ea04e98c.css",
+    "main.js": "/emedina456.github.com/static/js/main.782296bb.js",
+    "static/js/787.26b905fe.chunk.js": "/emedina456.github.com/static/js/787.26b905fe.chunk.js",
+    "static/media/Mingjun_Gao.jpg": "/emedina456.github.com/static/media/Mingjun_Gao.a8d08a6d7ea0e07e9fbc.jpg",
+    "static/media/logo.png": "/emedina456.github.com/static/media/logo.29f3e80a3cc4d48784af.png",
+    "static/media/Jeremy_Selwin.JPG": "/emedina456.github.com/static/media/Jeremy_Selwin.c80c58336672e2619b84.JPG",
+    "static/media/Eric_Medina.JPG": "/emedina456.github.com/static/media/Eric_Medina.848cbf5727f183d8179e.JPG",
+    "static/media/Michael_Kwon.png": "/emedina456.github.com/static/media/Michael_Kwon.e3120c7ed814e69d5e48.png",
+    "static/media/sampleA.jpg": "/emedina456.github.com/static/media/sampleA.be8a929b022419b4fa85.jpg",
+    "static/media/profile.png": "/emedina456.github.com/static/media/profile.34816bf9cf5c56a34afc.png",
+    "static/media/mouse.png": "/emedina456.github.com/static/media/mouse.fee2bae78fffb67c152d.png",
+    "index.html": "/emedina456.github.com/index.html",
+    "main.ea04e98c.css.map": "/emedina456.github.com/static/css/main.ea04e98c.css.map",
+    "main.782296bb.js.map": "/emedina456.github.com/static/js/main.782296bb.js.map",
+    "787.26b905fe.chunk.js.map": "/emedina456.github.com/static/js/787.26b905fe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea04e98c.css",
+    "static/js/main.782296bb.js"
+  ]
+}
