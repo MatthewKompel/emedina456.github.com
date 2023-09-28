@@ -3,8 +3,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Typography, Container, Box, Grid, Card, CardActionArea, CardMedia, CardContent } from '@mui/material';
 import sampleA from "./assets/sampleA.jpg"
 import profile from "./assets/profile.png"
-import ericMedina from "./assets/Eric_Medina.JPG"
-import jeremySelwin from "./assets/Jeremy_Selwin.JPG"
+import ericMedina from "./assets/Eric_Medina2.jpg"
+import jeremySelwin from "./assets/Jeremy_Selwin2.jpg"
 import matthewKompel from "./assets/Matthew_Kompel.jpg"
 import michaelKwon from "./assets/Michael_Kwon.png"
 import mingjunGao from "./assets/Mingjun_Gao.jpg"
