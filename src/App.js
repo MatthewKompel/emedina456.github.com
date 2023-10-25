@@ -15,12 +15,12 @@ import Navbar from './Navbar';
 
 function App() {
   const assignmentCards = [
-    { name: 'A1', description: "Enter assignment/video description here:", link: sampleA },
-    { name: 'A2', description: "Enter assignment/video description here:", link: sampleA },
-    { name: 'A3', description: "Enter assignment/video description here:", link: sampleA },
-    { name: 'A1 Video', description: "Enter assignment/video description here:", link: sampleA },
-    { name: "A2 Video", description: "Enter assignment/video description here:", link: sampleA },
-    { name: "A3 Video", description: "Enter assignment/video description here:", link: sampleA }
+    { name: 'A1', description: "Click for our report on the conceptual architecture of Kodi", image: sampleA, url: "https://docs.google.com/document/d/15sj4rBZBXPSOht_14rN7EKOxPW_YybHypb4BpEE_IsI/edit?usp=sharing" },
+    { name: 'A2', description: "Enter assignment/video description here:", image: sampleA, url: "" },
+    { name: 'A3', description: "Enter assignment/video description here:", image: sampleA, url: "" },
+    { name: 'A1 Video', description: "Click for our presentation on the conceptual architecture of Kodi", image: sampleA, url: "https://www.youtube.com/watch?v=2CvGBcM8BqE&ab_channel=MichaelKwon" },
+    { name: "A2 Video", description: "Enter assignment/video description here:", image: sampleA, url: "" },
+    { name: "A3 Video", description: "Enter assignment/video description here:", image: sampleA, url: "" }
   ];
 
   const contactCards = [
@@ -35,6 +35,10 @@ function App() {
   const homeRef = useRef(null)
   const assignmentRef = useRef(null)
   const contactRef = useRef(null)
+
+  const handleCardClick = (link) => {
+    window.open(link, '_blank')
+  }
 
   return (
     <div style={{ backgroundColor: "#494D60" }}>
@@ -102,7 +106,7 @@ function App() {
           <Grid container spacing={5} style={{ width: '100%' }}>
             {assignmentCards.map((card) => (
               <Grid item key={card.name} xs={12} sm={6} md={4} style={{ height: "auto", display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-                <Card style={{ height: '150px', width: '100%', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)', borderRadius: '13px', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'row', backgroundColor: "#2393BF" }}>
+                <Card onClick={() => {handleCardClick(card.url)}} style={{ height: '150px', width: '100%', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)', borderRadius: '13px', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'row', backgroundColor: "#2393BF" }}>
                   <CardActionArea sx={{ height: '100%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
                     <CardMedia
                       component="img"
@@ -112,7 +116,7 @@ function App() {
                         margin: '5%',
                         borderRadius: '10px'
                       }}
-                      image={card.link}
+                      image={card.image}
                       alt="random"
                     />
                     <CardContent style={{ textAlign: 'left', verticalAlign: 'top', flexGrow: 1, paddingRight: '10px', paddingTop: '30px' }}>
