@@ -16,10 +16,10 @@ import Navbar from './Navbar';
 function App() {
   const assignmentCards = [
     { name: 'A1', description: "Click for our report on the conceptual architecture of Kodi", image: sampleA, url: "https://docs.google.com/document/d/15sj4rBZBXPSOht_14rN7EKOxPW_YybHypb4BpEE_IsI/edit?usp=sharing" },
-    { name: 'A2', description: "Enter assignment/video description here:", image: sampleA, url: "" },
+    { name: 'A2', description: "Click for our report on the concrete architecture and comparisons with our conceptual architecture", image: sampleA, url: "https://docs.google.com/document/d/1vSeSKzMRt0vZ2YA_oZVGh02K0YJWSYET30kzCp4JKh0/edit" },
     { name: 'A3', description: "Enter assignment/video description here:", image: sampleA, url: "" },
     { name: 'A1 Video', description: "Click for our presentation on the conceptual architecture of Kodi", image: sampleA, url: "https://www.youtube.com/watch?v=2CvGBcM8BqE&ab_channel=MichaelKwon" },
-    { name: "A2 Video", description: "Enter assignment/video description here:", image: sampleA, url: "" },
+    { name: "A2 Video", description: "Click for our presentation on the concrete architecture and comparisons with our conceptual architecture", image: sampleA, url: "https://www.youtube.com/watch?v=rML85T89bts&ab_channel=MichaelKwon" },
     { name: "A3 Video", description: "Enter assignment/video description here:", image: sampleA, url: "" }
   ];
 
